@@ -1,0 +1,32 @@
+====================================================
+Milestone 7
+
+Nama: Muhammad Fariz Firdaus
+Batch: SBY002
+Objective: File ini dibuat untuk menjawab conceptual problems.
+====================================================
+
+1. Jelaskan apa yang dimaksud dengan NoSQL menggunakan pemahaman yang kalian ketahui !
+NoSQL, yang merupakan singkatan dari "Not only SQL" adalah pendekatan desain database yang seperti namanya, dirancang untuk menyimpan data terstruktur dan tidak terstruktur dalam jumlah besar.
+
+2. Jelaskan kapan harus menggunakan NoSQL dan Relational Database Management System !
+Hal utama yang perlu dipertimbangkan untuk memilih jenis desain database adalah memperhatikan struktur data. Jika data yang digunakan tidak terstruktur, maka tidak dapat digunakan RDBMS.
+Selain itu, perlu dipertimbangkan bussiness case. Jika model bisnis tidak akan berbuah-ubah, maka lebih baik digunakan RDBMS, namun jika model bisnis flexible, (seperti start-up) maka sebaiknya gunakan No-SQL
+
+3. Sebutkan contoh 2 tools/platform NoSQL selain ElasticSearch beserta keunggulan tools/platform tersebut !
+2 tools populer untuk No-SQL selain ElasticSearch adalah:
+- MongoDB
+MongoDB adalah tools pengolahan data No-SQL berorientasi dokumen, sehingga cocok untuk banyak sekali permasalahan.
+- Apache Cassandra
+Cassandra adalah tools pengolahan data No-SQL berorientasi wide column, sehingga cocok untuk data geografikal, atau time series.
+
+4. Jelaskan apa yang Anda ketahui dari Airflow menggunakan pemahaman dan bahasa Anda sendiri !
+Airflow adalah alat yang dapat digunakan untuk mengotomatisasi sebuah alur pekerjaan. Dengan memanfaatkan Airflow, seorang Data Engineer dapat melakukan perncanaan, penjadwalan, dan monitoring alur pekerjaan yang ingin diotomatisasi
+
+5. Jelaskan apa yang Anda ketahui dari Great Expectations menggunakan pemahaman dan bahasa Anda sendiri !
+Great Expectations adalah sebuah framework yang dapat diterapkan untuk melakukan validasi data. Dengan menerapkan validasi data, seorang data Engineer dapat menjamin kualitas data, hal ini dapatdicapai dengan Great Expectations.
+
+6. Jelaskan apa yang Anda ketahui dari Batch Processing menggunakan pemahaman dan bahasa Anda sendiri (Definisi, Contoh Kasus Penggunaan, Tools, dll) !
+Batch processing adalah metode pemrosesan data dalam bentuk batch (kelompok), bukan dalam individual. Batch processing cocok digunakan untuk kasus yang memproses data dengan volume besar, karena data diproses secara berkelompok,
+maka seorang data Engineer dapat menghemat sumber daya, seperti daya komputasi, dan bandwith. Contoh penggunaan batch processing di dunia nyata adalah analisis transaksi customer. daripada memproses data customer setiap transaksi dilakukan,
+akan lebih efisien jika setiap minggu atau bulan dilakukan batch processing. Contoh alat yang bisa digunakan adalah Apache Airflow, dengan Airflow data Engineer dapat merencanakan, menjadwalkan, dan memonitor sebuah penugasan batch processing.
